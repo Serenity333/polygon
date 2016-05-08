@@ -1,4 +1,7 @@
-#Draws a polygon using a Turtle. WARNING: Does NOT include Turtle setup
+#Draws a polygon using a Turtle. Includes Turtle setup
+import turtle
+
+t = turtle
 
 def polygon(t, n, length):
     angle = 360 / n
