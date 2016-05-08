@@ -6,6 +6,6 @@ t = turtle
 def polygon(t, n, length):
     angle = 360 / n
     for i in range(n):
-        t.fd(length)
-        t.lt(angle)
+        t.forward(length)
+        t.left(angle)
         
